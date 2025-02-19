@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./Sidebar";
-import Navbar from "./Navbar";
-import Form from "./Form";
-import Response from "./Response";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
+import Form from "./components/Form";
+import Response from "./components/Response";
 
 const App = () => {
   return (
